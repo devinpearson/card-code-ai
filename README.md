@@ -13,6 +13,14 @@ The script uses nodejs and works well when paired with the investec-ipb cli appl
 npm install
 ```
 
+## Configuration
+Create a `.env` file in the root directory and add your OpenAI API key:
+```sh
+cp .env.example .env
+```
+
+Then edit the `.env` file and add your OpenAI API key.
+
 ## Usage
 ```sh
 node . <prompt>
