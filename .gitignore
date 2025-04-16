@@ -1,0 +1,9 @@
+**/node_modules
+.env
+data
+/bin
+.env.*
+.DS_Store
+executions.json
+main.js
+env.json
